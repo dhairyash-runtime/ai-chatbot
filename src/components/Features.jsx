@@ -55,7 +55,7 @@ const Features = () => {
     };
 
     return (
-        <section className="w-full font-['Poppins'] bg-white flex flex-col items-center pt-14 pb-0 md:pt-24 md:pb-0 px-5 md:px-6">
+        <section id="features" className="w-full font-['Poppins'] bg-white flex flex-col items-center pt-14 pb-0 md:pt-24 md:pb-0 px-5 md:px-6">
 
             {/* Pill label */}
             <span className="inline-block text-[#218CA1] text-[11px] md:text-[14px] border border-[#218CA1] rounded-full px-3 py-[5px] mb-5 md:mb-8 tracking-wide">
@@ -108,7 +108,7 @@ const Features = () => {
                         }}
                     >
                         <img
-                            src="/api_manager_screenshot2.jpg"
+                            src="/hero_chatbot.png"
                             alt="AI Chatbot Dashboard"
                             className="w-full h-auto block mb-[30px] rounded-b-2xl object-cover"
                             onError={(e) => {

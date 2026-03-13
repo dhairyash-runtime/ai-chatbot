@@ -8,7 +8,7 @@ const features = [
         link: '#',
         imagePosition: 'right',
         imageBg: 'linear-gradient(135deg, #e0f2f4 0%, #fcfce3 100%)',
-        image: 'https://framerusercontent.com/images/xb6qKKA1vbBV9HsKy7EIF1gN7J4.png',
+        image: 'website_aware_ai.png',
     },
     {
         id: 'custom-knowledge',
@@ -17,7 +17,7 @@ const features = [
         link: '#',
         imagePosition: 'left',
         imageBg: 'linear-gradient(135deg, #fcfce3 0%, #e0f2f4 100%)',
-        image: 'https://framerusercontent.com/images/S1HajUVfQb9QD69OcEaRkP0Oho.png',
+        image: 'custom_knowledge.png',
     },
     {
         id: 'widget-integration',
@@ -26,7 +26,7 @@ const features = [
         link: '#',
         imagePosition: 'right',
         imageBg: 'linear-gradient(135deg, #d3ebf0 0%, #faf8c8 100%)',
-        image: 'https://framerusercontent.com/images/8pQqkuHynaUPj2mktnRZmlu9BQ.png',
+        image: 'embeddable_widget.png',
     },
     {
         id: 'human-escalation',
@@ -35,7 +35,7 @@ const features = [
         link: '#',
         imagePosition: 'left',
         imageBg: 'linear-gradient(135deg, #faf8c8 0%, #d3ebf0 100%)',
-        image: 'https://framerusercontent.com/images/j48dl9LYrg4r8KKzQM7Yw9wcu78.png',
+        image: 'human_escalation.png',
     },
     {
         id: 'lead-capture',
@@ -53,7 +53,7 @@ const features = [
         link: '#',
         imagePosition: 'left',
         imageBg: 'linear-gradient(135deg, #fcfce3 0%, #e0f2f4 100%)',
-        image: 'https://framerusercontent.com/images/caZmyiGQ9Low3tsVTTTvQApDPg.png',
+        image: 'conversation_analysis.png',
     },
     {
         id: 'contextual-responses',

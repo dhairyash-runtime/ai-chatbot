@@ -144,22 +144,36 @@ const IllustrationCloud = () => (
     </svg>
 );
 
-/** Card 3 – Built for scale & performance  (small card) */
-const IllustrationScale = () => (
+/** Card 3 – Cloud Hosted AI (small card) */
+const IllustrationCloudServer = () => (
     <svg viewBox="0 0 140 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-        {/* bars */}
-        <rect x="12" y="82" width="18" height="36" rx="3" fill="#218CA1" opacity="0.25" />
-        <rect x="36" y="64" width="18" height="54" rx="3" fill="#218CA1" opacity="0.45" />
-        <rect x="60" y="44" width="18" height="74" rx="3" fill="#218CA1" opacity="0.7" />
-        <rect x="84" y="28" width="18" height="90" rx="3" fill="#218CA1" opacity="0.95" />
-        <rect x="108" y="52" width="18" height="66" rx="3" fill="#3949AB" opacity="0.55" />
-        {/* trend line */}
-        <polyline points="21,92 45,72 69,52 93,36" stroke="#1e293b" strokeWidth="2.5"
-            strokeLinecap="round" strokeLinejoin="round" fill="none" />
-        {/* arrow head */}
-        <path d="M86 33 L95 30 L92 40" stroke="#1e293b" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-        {/* baseline */}
-        <line x1="8" y1="122" x2="132" y2="122" stroke="#94a3b8" strokeWidth="1.5" opacity="0.5" />
+        {/* cloud outline background */}
+        <path d="M40 70 Q30 70 25 58 Q20 46 35 40 Q35 20 60 18 Q72 10 90 20 Q105 10 115 25 Q125 30 115 45 Q130 50 125 65 Q120 70 100 70 Z"
+            fill="#218CA1" opacity="0.1" />
+
+        {/* Server Rack Box */}
+        <rect x="35" y="45" width="70" height="75" rx="6" fill="#1e293b" />
+        <rect x="35" y="45" width="70" height="20" rx="6" fill="#0f172a" />
+
+        {/* Server slots / racks */}
+        <rect x="42" y="70" width="56" height="12" rx="2" fill="#334155" />
+        <rect x="42" y="86" width="56" height="12" rx="2" fill="#334155" />
+        <rect x="42" y="102" width="56" height="12" rx="2" fill="#334155" />
+
+        {/* blinking lights on servers */}
+        <circle cx="48" cy="76" r="2.5" fill="#22c55e" />
+        <circle cx="56" cy="76" r="2.5" fill="#f59e0b" />
+
+        <circle cx="48" cy="92" r="2.5" fill="#22c55e" />
+        <circle cx="56" cy="92" r="2.5" fill="#334155" />
+
+        <circle cx="48" cy="108" r="2.5" fill="#22c55e" />
+        <circle cx="56" cy="108" r="2.5" fill="#ef4444" />
+
+        {/* cloud upload sync icon floating */}
+        <circle cx="70" cy="30" r="16" fill="white" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))' }} />
+        <path d="M70 20 L76 26 L64 26 Z" fill="#218CA1" />
+        <rect x="68" y="26" width="4" height="10" fill="#218CA1" />
     </svg>
 );
 
@@ -194,28 +208,31 @@ const IllustrationSecure = () => (
     </svg>
 );
 
-/** Card 5 – Developer Centric  (small card) */
-const IllustrationDev = () => (
+/** Card 5 – Custom UI Styling (small card) */
+const IllustrationCustomUI = () => (
     <svg viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-        {/* code editor window */}
-        <rect x="8" y="12" width="114" height="80" rx="9" fill="#1e293b" />
-        <rect x="8" y="12" width="114" height="20" rx="9" fill="#0f172a" />
-        {/* traffic dots */}
-        <circle cx="22" cy="22" r="4" fill="#ef4444" />
-        <circle cx="34" cy="22" r="4" fill="#f59e0b" />
-        <circle cx="46" cy="22" r="4" fill="#22c55e" />
-        {/* code lines */}
-        <rect x="18" y="40" width="50" height="5" rx="2.5" fill="#218CA1" opacity="0.85" />
-        <rect x="18" y="52" width="70" height="4" rx="2" fill="#334155" />
-        <rect x="28" y="61" width="58" height="4" rx="2" fill="#334155" />
-        <rect x="28" y="70" width="45" height="4" rx="2" fill="#334155" />
-        <rect x="18" y="79" width="60" height="4" rx="2" fill="#334155" />
-        {/* bracket watermark */}
-        <text x="82" y="75" fontSize="32" fill="#218CA1" opacity="0.12" fontWeight="bold">{`</>`}</text>
-        {/* person */}
-        <circle cx="65" cy="108" r="10" fill="#218CA1" opacity="0.2" />
-        <circle cx="65" cy="105" r="6" fill="#218CA1" opacity="0.65" />
-        <path d="M52 120 Q65 112 78 120" stroke="#218CA1" strokeWidth="2.2" strokeLinecap="round" />
+        {/* wireframe UI window */}
+        <rect x="15" y="20" width="100" height="85" rx="6" fill="#1e293b" opacity="0.05" stroke="#218CA1" strokeWidth="2" strokeDasharray="4 4" />
+
+        {/* styling elements overlay */}
+        <rect x="25" y="30" width="80" height="30" rx="4" fill="#3949AB" opacity="0.8" />
+        <circle cx="40" cy="45" r="8" fill="white" opacity="0.5" />
+        <rect x="55" y="42" width="40" height="6" rx="3" fill="white" opacity="0.6" />
+
+        <rect x="25" y="70" width="35" height="25" rx="4" fill="#218CA1" opacity="0.9" />
+        <rect x="70" y="70" width="35" height="25" rx="4" fill="#f59e0b" opacity="0.9" />
+
+        {/* color palette floating */}
+        <circle cx="105" cy="85" r="18" fill="white" style={{ filter: 'drop-shadow(0 3px 6px rgba(0,0,0,0.15))' }} />
+        <circle cx="98" cy="80" r="4" fill="#ef4444" />
+        <circle cx="112" cy="80" r="4" fill="#3949AB" />
+        <circle cx="98" cy="90" r="4" fill="#22c55e" />
+        <circle cx="112" cy="90" r="4" fill="#f59e0b" />
+
+        {/* UI cursor arrow */}
+        <path d="M60 100 L76 112 L68 120 Z" fill="#1e293b" />
+        <path d="M68 120 L72 130 L66 132 L62 122 Z" fill="#1e293b" />
+        <path d="M62 102 L74 112 L67 118 L70 128 L66 129 L63 119 Z" fill="white" stroke="white" strokeWidth="0.5" />
     </svg>
 );
 
@@ -259,8 +276,8 @@ const LARGE_CARDS = [
         title: 'AI-Powered Solution',
         description:
             'Our AI chatbot learns from your website, can be trained on internal documents, provides real-time contextual responses, and integrates into any website seamlessly.',
-        // Lottie animation — replaces the SVG illustration for this card
-        lottieUrl: 'https://lottie.host/5c4f72d9-9a96-444e-b4d1-b6437989d5d1/QsUrKeZaFc.lottie',
+        // Lottie animation — matches the AI chatbot concept
+        lottieUrl: 'https://assets-v2.lottiefiles.com/a/4bf1141e-1167-11ee-8a8b-d7fba4b8c5e1/R1fjWxwBkg.lottie',
         Illustration: IllustrationLifecycle, // fallback
     },
     {
@@ -268,7 +285,8 @@ const LARGE_CARDS = [
         title: 'Built for Every Industry',
         description:
             'Deploy across corporate websites, SaaS platforms, e-commerce websites, educational institutions, and service-based companies — with industry-specific intelligence.',
-        lottieUrl: 'https://lottie.host/a4bc684c-bf70-41e8-b72c-eba61db94c88/bJbzYF3JU5.lottie',
+        // Lottie animation — matches global industry deployment
+        lottieUrl: 'https://assets-v2.lottiefiles.com/a/dd52975a-8874-11ee-b062-e76abcb744f4/7g9K7znbuI.lottie',
         Illustration: IllustrationCloud, // fallback
     },
 ];
@@ -279,7 +297,7 @@ const SMALL_CARDS = [
         title: 'Cloud Hosted AI',
         description:
             'Deploy your AI chatbot on our managed cloud infrastructure with enterprise-grade reliability, automatic scaling, and zero maintenance overhead.',
-        Illustration: IllustrationScale,
+        Illustration: IllustrationCloudServer,
     },
     {
         id: 'private-hosting',
@@ -293,7 +311,7 @@ const SMALL_CARDS = [
         title: 'Custom UI Styling',
         description:
             'Fully customizable chat widget with brand-matching colors, fonts, positioning, and behavior — seamlessly blending into your website\'s design language.',
-        Illustration: IllustrationDev,
+        Illustration: IllustrationCustomUI,
     },
 ];
 
@@ -334,7 +352,7 @@ const Benefits = () => {
     };
 
     return (
-        <section className="relative w-full overflow-hidden font-['Poppins']">
+        <section id="benefits" className="relative w-full overflow-hidden font-['Poppins']">
 
             {/* ── striped orange background ── */}
             <StripedBg />

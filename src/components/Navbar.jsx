@@ -47,23 +47,20 @@ const Navbar = () => {
                 </div>
 
                 <div className="hidden md:flex items-center space-x-12 text-[#4C4C4C] text-[15px] font-medium">
-                    <Link href="/" className={activeLinkStyles}>
+                    <Link href="#" className={activeLinkStyles}>
                         Home
                     </Link>
-                    <Link href="/features" className={linkStyles}>
+                    <Link href="#features" className={linkStyles}>
                         Features
                     </Link>
-                    <Link href="/blog" className={linkStyles}>
-                        Blog
+                    <Link href="#benefits" className={linkStyles}>
+                        Benefits
                     </Link>
-                    <Link href="/about" className={linkStyles}>
-                        About Us
+                    <Link href="#collaborations" className={linkStyles}>
+                        Collaborations
                     </Link>
-                    <Link href="/careers" className={linkStyles}>
-                        Careers
-                    </Link>
-                    <Link href="/docs" className={linkStyles}>
-                        Docs
+                    <Link href="#blogs" className={linkStyles}>
+                        Blogs
                     </Link>
                 </div>
 
@@ -71,7 +68,11 @@ const Navbar = () => {
                     <button
                         className="text-[12px] px-3 py-2 rounded-full font-medium transition-colors shadow-md cursor-pointer bg-[#218CA1] hover:bg-[#DEDB00] text-white hover:text-black"
                     >
-                        Integrate AI Chatbot
+                        <a
+                            href="https://www.runtime-solutions.com/contact/"
+                        >
+                            Integrate AI Chatbot
+                        </a>
                     </button>
                 </div>
 
@@ -99,23 +100,20 @@ const Navbar = () => {
             {isOpen && (
                 <div className="md:hidden bg-white w-full h-[calc(100vh-80px)] overflow-y-auto border-t border-gray-200">
                     <div className="flex flex-col px-6 text-gray-800 font-medium text-[15px]">
-                        <Link href="/" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
+                        <Link href="#" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
                             Home
                         </Link>
-                        <Link href="/features" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
+                        <Link href="#features" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
                             Features
                         </Link>
-                        <Link href="/blog" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
-                            Blog
+                        <Link href="#benefits" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
+                            Benefits
                         </Link>
-                        <Link href="/about" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
-                            About Us
+                        <Link href="#collaborations" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
+                            Collaborations
                         </Link>
-                        <Link href="/careers" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
-                            Careers
-                        </Link>
-                        <Link href="/docs" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
-                            Docs
+                        <Link href="#blogs" className="py-4 border-b border-gray-200 hover:text-[#DEDB00] transition-colors" onClick={() => setIsOpen(false)}>
+                            Insights
                         </Link>
                     </div>
                 </div>
