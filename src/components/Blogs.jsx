@@ -10,24 +10,24 @@ const BLOGS = [
         title: 'How AI Chatbots Are Transforming Customer Support for Websites',
         description:
             'Discover how AI-powered chatbots help organizations provide 24/7 contextual support, reduce response times, and improve customer satisfaction...',
-        image: '/blog1.jpg',
-        link: '#',
+        image: '/blog1.png',
+        link: '/blog/blog-1',
     },
     {
         id: 'blog-2',
         title: 'Training Your AI Chatbot: From Website Data to Custom Documents',
         description:
             'Everything you need to know about training an AI chatbot using your website content, PDFs, FAQs, and internal knowledge bases...',
-        image: '/blog2.jpg',
-        link: '#',
+        image: '/blog2.png',
+        link: '/blog/blog-2',
     },
     {
         id: 'blog-3',
         title: 'AI Chatbot Integration: From SaaS to E-Commerce & Education',
         description:
             'Learn how different industries are deploying AI chatbots to automate customer interactions, capture leads, and provide intelligent support...',
-        image: '/blog3.jpg',
-        link: '#',
+        image: '/blog3.png',
+        link: '/blog/blog-3',
     },
 ];
 
