@@ -100,7 +100,6 @@ const Blogs = () => {
                         <a
                             key={id}
                             href={link}
-                            target="_blank"
                             rel="noopener noreferrer"
                             ref={(el) => (cardRefs.current[i] = el)}
                             onMouseEnter={() => setIsHovered(true)}
